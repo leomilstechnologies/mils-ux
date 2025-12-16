@@ -1,0 +1,257 @@
+/* Mils Costum CSS */
+body {
+	font-family: 'Poppins', sans-serif !important;
+}
+.mils-wrapper {
+	box-sizing: border-box !important;
+   padding: 2vw 10vw !important;
+}
+.mils-cols {
+	font-family: 'Poppins', sans-serif !important;
+	max-width: 400px !important;
+}
+.mils-wellcome-slider ol li.dot {
+	border-radius: 5px !important;
+    height: 10px !important;
+    width: 10px !important;
+    background: #fff !important;
+}
+.mils-wellcome-slider ol li.dot.is-selected {
+	font-family: 'Poppins', sans-serif !important;
+	width: 50px !important;
+}
+.mils-title {
+	font-family: 'Poppins', sans-serif;
+	font-size: clamp(30px, 8vw, 80px) !important;
+}
+.mils-title-h2 {
+	font-family: 'Poppins', sans-serif !important;
+	font-size: clamp(20px, 2.7vw, 60px) !important;
+}
+.mils-subtitle-h2 {
+	font-family: 'Poppins', sans-serif !important;
+	font-size: clamp(10px, 1.5vw, 30px) !important;
+}
+.mils-desc-title {
+	font-family: 'Poppins', sans-serif !important;
+	font-size: clamp(20px, 3vw, 30px) !important;
+}
+.mils-capsul .box-image {
+   border-radius: 1em;
+}
+.mils-capsul .box-text {
+   padding: 0 !important;
+}
+.mils-btn-title {
+	font-family: 'Poppins', sans-serif !important;
+	font-size: clamp(12px, 1.7vw, 20px) !important;
+}
+.mils-desc {
+	font-family: 'Poppins', sans-serif !important;
+	font-size: clamp(10px, 1.7vw, 20px) !important;
+}
+.mils-desc-2v {
+	font-family: 'Poppins', sans-serif !important;
+	font-size: clamp(8px, 1.7vw, 12px) !important;
+}
+.mils-rounded {
+	border-radius: 2em;
+	overflow: hidden !important;
+}
+.mils-capsule-img .bg-loaded{
+	position: relative !important;
+    padding: 10px !important;
+    box-sizing: border-box;
+    height: calc(100% - 30px);
+    width: calc(100% - 30px);
+    left: unset;
+    margin: 15px !important;
+}
+.mils-subs {
+	display: flex;
+    flex-flow: row;
+    gap: 1vw;
+    width: 100%;
+    margin: 0 auto;
+}
+.mils-inp {
+	font-size: clamp(.5em, 1.2vw, 1.5em) !important;
+	font-family: 'Poppins', sans-serif !important;
+	border-radius: 99px !important;
+    padding: 5px 2vw 5px 2vw !important;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    background-color: #fff !important;
+    color: #424242 !important;
+    text-transform: none !important;
+    height: auto !important;
+    max-width: 300px !important;
+}
+.mils-btn {
+	font-family: 'Poppins', sans-serif !important;
+	font-size: clamp(.5em, 1.2vw, 1.5em) !important;
+	border-radius: 99px;
+    padding: 5px 2vw 5px 2vw;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    background-color: #424242;
+    color: #fff;
+    text-transform: none !important;
+}
+.mils-gallery {
+	height: 800px !important;
+}
+.mils-subs-left-text {
+	text-align: left !important;
+}
+@media (min-width: 850px) and (max-width: 1024px) {
+	.mils-gallery {
+		height: 600px !important;
+	}
+	.mils-gallery .gallery-a {
+		height: 50% !important;
+		left: 0px !important;
+		top: 0px !important;
+		width: 33.333% !important;
+	}
+	.mils-gallery .gallery-b {
+		height: 50% !important;
+		left: 33.333% !important;
+		top: 0px !important;
+		width: 33.333% !important;
+	}
+	.mils-gallery .gallery-c {
+		height: 50% !important;
+		left: 66.666% !important;
+		top: 0px !important;
+		width: 33.333% !important;
+	}
+	.mils-gallery .gallery-d {
+		height: 50% !important;
+		left: 0% !important;
+		top: 50% !important;
+		width: 50% !important;
+	}
+	.mils-gallery .gallery-e {
+		height: 50% !important;
+		left: 50% !important;
+		top: 50% !important;
+		width: 50% !important;
+	}
+	.mils-subs {
+	    width: 100% !important;
+	    margin: 0 auto;
+	}
+	.mils-subs-grid {
+		height: 250px !important;
+	}
+	.mils-subs-grid > * {
+		height: 100% !important;
+	}
+	.mils-subs-left-text {
+		text-align: left !important;
+	}
+}
+/* Hanya untuk lebar layar antara 768px dan 1024px (Tablet) */
+@media (min-width: 768px) and (max-width: 849px) {
+	.mils-grid-item-top {
+		height: 300px !important;
+		top: 0 !important;
+	}
+	.mils-grid-item-bottom {
+		height: 300px !important;
+		top: 300px !important;
+	}
+	.mils-gallery {
+		height: 400px !important;
+	}
+	.mils-gallery .gallery-a {
+		height: 100% !important;
+		left: 0px !important;
+		top: 0px !important;
+		width: 33.333% !important;
+	}
+	.mils-gallery .gallery-b {
+		height: 50% !important;
+		left: 33.333% !important;
+		top: 0px !important;
+		width: 33.333% !important;
+	}
+	.mils-gallery .gallery-c {
+		height: 50% !important;
+		left: 66.666% !important;
+		top: 0px !important;
+		width: 33.333% !important;
+	}
+	.mils-gallery .gallery-d {
+		height: 50% !important;
+		left: 33.333% !important;
+		top: 50% !important;
+		width: 33.333% !important;
+	}
+	.mils-gallery .gallery-e {
+		height: 50% !important;
+		left: 66.666% !important;
+		top: 50% !important;
+		width: 33.333% !important;
+	}
+	.mils-subs {
+	    width: max-content !important;
+	}
+}
+/* Menargetkan layar KECIL (misalnya, lebar MAX 767px) */
+@media (max-width: 767px) {
+	.mils-grid-item-top {
+		height: 300px !important;
+		top: 0 !important;
+	}
+	.mils-grid-item-bottom {
+		height: 300px !important;
+		top: 300px !important;
+	}
+	.mils-gallery {
+		height: 400px !important;
+	}
+	.mils-gallery .gallery-a {
+		height: 25% !important;
+		left: 0px !important;
+		top: 0px !important;
+		width: 100% !important;
+	}
+	.mils-gallery .gallery-b {
+		height: 25% !important;
+		left: 0% !important;
+		top: 25% !important;
+		width: 50% !important;
+	}
+	.mils-gallery .gallery-c {
+		height: 25% !important;
+		left: 50% !important;
+		top: 25% !important;
+		width: 50% !important;
+	}
+	.mils-gallery .gallery-d {
+		height: 25% !important;
+		left: 0% !important;
+		top: 50% !important;
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+	.mils-gallery .gallery-e {
+		height: 25% !important;
+		left: 0% !important;
+		top: 75% !important;
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+	.mils-subs {
+	    width: 100% !important;
+	    flex-flow: column !important;
+	    padding: 0px 2vw !important;
+	    align-items: center;
+	}
+	.mils-btn {
+		max-width: 300px !important;
+		width: 100% !important;
+	}
+}
