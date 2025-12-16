@@ -34,7 +34,7 @@ body {
 }
 .mils-desc-title {
 	font-family: 'Poppins', sans-serif !important;
-	font-size: clamp(20px, 3vw, 30px) !important;
+	font-size: clamp(16px, 2.4vw, 30px) !important;
 }
 .mils-capsul .box-image {
    border-radius: 1em;
@@ -255,3 +255,4 @@ body {
 		width: 100% !important;
 	}
 }
+
