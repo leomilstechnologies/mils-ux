@@ -109,6 +109,7 @@ body {
     background-color: #424242;
     color: #fff;
     text-transform: none !important;
+	width: max-content !important;
 }
 .mils-stack {
 	padding: .8em !important;
@@ -277,6 +278,7 @@ body {
 		width: 100% !important;
 	}
 }
+
 
 
 
