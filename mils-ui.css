@@ -242,7 +242,7 @@ body {
 /* Menargetkan layar KECIL (misalnya, lebar MAX 767px) */
 @media (max-width: 767px) {
 	.mils-wrapper {
-		padding: 5vw 4vw !important;
+		padding: 5vw 5vw !important;
 	}
 	.mils-row > .col {
 		padding: 5px !important;
@@ -301,6 +301,7 @@ body {
 		width: 100% !important;
 	}
 }
+
 
 
 
