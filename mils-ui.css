@@ -67,7 +67,7 @@ body {
 	font-size: clamp(8px, 1.7vw, 12px) !important;
 }
 .mils-rounded {
-	border-radius: .4em !important;
+	border-radius: .8em !important;
 	overflow: hidden !important;
 }
 .mils-banner .banner-inner .fill {
@@ -282,6 +282,7 @@ body {
 		width: 100% !important;
 	}
 }
+
 
 
 
