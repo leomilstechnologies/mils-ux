@@ -30,6 +30,7 @@ body {
 .mils-title {
 	font-family: 'Poppins', sans-serif;
 	font-size: clamp(30px, 8vw, 80px) !important;
+	line-height: 1.2 !important;
 }
 .mils-title-h2 {
 	font-family: 'Poppins', sans-serif !important;
@@ -56,7 +57,7 @@ body {
 }
 .mils-btn-title {
 	font-family: 'Poppins', sans-serif !important;
-	font-size: clamp(12px, 1.7vw, 20px) !important;
+	font-size: clamp(14px, 1.7vw, 20px) !important;
 }
 .mils-desc {
 	font-family: 'Poppins', sans-serif !important;
@@ -285,6 +286,7 @@ body {
 		width: 100% !important;
 	}
 }
+
 
 
 
