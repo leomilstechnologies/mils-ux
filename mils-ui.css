@@ -113,7 +113,7 @@ body {
 	font-size: clamp(.5em, 1.2vw, 1.5em) !important;
 	font-family: 'Poppins', sans-serif !important;
 	border-radius: 99px !important;
-    padding: 5px 2vw 5px 2vw !important;
+    padding: 5px 4vw !important;
     margin-bottom: .5em;
     margin-top: .5em;
     background-color: #fff !important;
@@ -121,6 +121,7 @@ body {
     text-transform: none !important;
     height: auto !important;
     max-width: 300px !important;
+	line-height: 2.4em !important;
 }
 .mils-btn {
 	font-family: 'Poppins', sans-serif !important;
@@ -350,6 +351,7 @@ body {
 		text-align: center !important;
 	}
 }
+
 
 
 
