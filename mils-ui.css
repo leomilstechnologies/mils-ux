@@ -11,7 +11,7 @@ body {
 	max-width: 400px !important;
 }
 .mils-card .col-inner {
-	padding: .8em !important;
+	padding: .4em !important;
 	border-radius: .8em !important;
 }
 .mils-wellcome-slider ol li.dot {
@@ -301,6 +301,7 @@ body {
 		width: 100% !important;
 	}
 }
+
 
 
 
