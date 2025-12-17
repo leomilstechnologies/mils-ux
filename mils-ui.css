@@ -20,7 +20,7 @@ body {
     width: 10px !important;
     background: #fff !important;
 }
-.mils-wellcome-slider .banner-bg .bg.fill.bg-fill.bg-loaded {
+.mils-wellcome-slider .banner-bg {
 	border-radius: 0px !important
 }
 .mils-wellcome-slider ol li.dot.is-selected {
@@ -277,6 +277,7 @@ body {
 		width: 100% !important;
 	}
 }
+
 
 
 
