@@ -4,7 +4,7 @@ body {
 }
 .mils-wrapper {
 	box-sizing: border-box !important;
-	padding: 5vw 3vw !important;
+	padding: 5vw 10vw !important;
 }
 .mils-cols {
 	font-family: 'Poppins', sans-serif !important;
@@ -250,6 +250,23 @@ body {
 	.mils-row > .col {
 		padding: 5px !important;
 	}
+	.mils-card .col-inner {
+		padding: .4em !important;
+		border-radius: .8em !important;
+	}
+	.mils-capsul .box-image {
+	   border-radius: .4em !important;
+	}
+	.mils-rounded {
+		border-radius: .8em !important;
+		overflow: hidden !important;
+	}
+	.mils-banner .banner-inner .fill {
+		border-radius: .8em !important;
+	}
+	.mils-stack {
+		padding: .8em !important;
+	}
 	.mils-grid-item-top {
 		height: 300px !important;
 		top: 0 !important;
@@ -312,7 +329,11 @@ body {
 		width: 100% !important;
 		margin: 0px !important;
 	}
+	.mils-gallery > .col {
+		padding: 5px !important;
+	}
 }
+
 
 
 
