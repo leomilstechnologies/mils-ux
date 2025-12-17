@@ -70,7 +70,7 @@ body {
 	border-radius: .4em !important;
 	overflow: hidden !important;
 }
-.mils-banner ..banner-inner .fill {
+.mils-banner .banner-inner .fill {
 	border-radius: .8em !important;
 }
 .mils-capsule-img .bg-loaded{
@@ -282,6 +282,7 @@ body {
 		width: 100% !important;
 	}
 }
+
 
 
 
