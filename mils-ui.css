@@ -11,8 +11,8 @@ body {
 	max-width: 400px !important;
 }
 .mils-card .col-inner {
-	padding: .4em !important;
-	border-radius: .8em !important;
+	padding: .8em !important;
+	border-radius: 1.6em !important;
 }
 .mils-wellcome-slider ol li.dot {
 	border-radius: 5px !important;
@@ -50,7 +50,7 @@ body {
 	font-size: clamp(16px, 2.4vw, 30px) !important;
 }
 .mils-capsul .box-image {
-   border-radius: .4em !important;
+   border-radius: .8em !important;
 }
 .mils-capsul .box-text {
    padding: 0 !important;
@@ -77,11 +77,11 @@ body {
 	font-size: clamp(8px, 1.7vw, 12px) !important;
 }
 .mils-rounded {
-	border-radius: .8em !important;
+	border-radius: 1.6em !important;
 	overflow: hidden !important;
 }
 .mils-banner .banner-inner .fill {
-	border-radius: .8em !important;
+	border-radius: 1.6em !important;
 }
 .mils-capsule-img .bg-loaded{
 	position: relative !important;
@@ -93,7 +93,7 @@ body {
     margin: .8em !important;
 }
 .mils-capsule-img .banner-inner .fill {
-	border-radius: .4em !important;
+	border-radius: .8em !important;
 }
 .mils-subs {
 	display: flex;
@@ -333,6 +333,7 @@ body {
 		padding: 5px !important;
 	}
 }
+
 
 
 
