@@ -37,7 +37,7 @@ body {
 }
 .mils-subtitle-h2 {
 	font-family: 'Poppins', sans-serif !important;
-	font-size: clamp(10px, 1.5vw, 30px) !important;
+	font-size: clamp(12px, 1.5vw, 30px) !important;
 	margin-bottom: 1vw !important;
 }
 .mils-product-title {
@@ -285,6 +285,7 @@ body {
 		width: 100% !important;
 	}
 }
+
 
 
 
