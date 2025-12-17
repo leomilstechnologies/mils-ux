@@ -41,9 +41,16 @@ body {
 	font-size: clamp(12px, 2vw, 30px) !important;
 	margin-bottom: 1vw !important;
 }
+.mils-highlight .mils-product-title {
+	margin-left: .4em;
+}
 .mils-product-title {
 	font-family: 'Poppins', sans-serif !important;
 	font-size: clamp(12px, 2vw, 20px) !important;
+	margin-top: .8em !important;
+}
+.mils-overview .mils-product-title {
+	margin-top: 0px !important;
 }
 .mils-desc-title {
 	font-family: 'Poppins', sans-serif !important;
@@ -332,7 +339,11 @@ body {
 	.mils-gallery > .col {
 		padding: 5px !important;
 	}
+	.mils-product-title {
+		margin-top: .4em !important;
+	}
 }
+
 
 
 
