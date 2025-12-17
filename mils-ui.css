@@ -113,14 +113,14 @@ body {
 	font-size: clamp(.5em, 1.2vw, 1.5em) !important;
 	font-family: 'Poppins', sans-serif !important;
 	border-radius: 99px !important;
-    padding: 5px 4vw !important;
+    padding: 5px 1.5vw !important;
     margin-bottom: .5em;
     margin-top: .5em;
     background-color: #fff !important;
     color: #424242 !important;
     text-transform: none !important;
     height: auto !important;
-    max-width: 300px !important;
+    max-width: 400px !important;
 	line-height: 2.4em !important;
 }
 .mils-btn {
@@ -202,6 +202,12 @@ body {
 	.mils-subs-left-text {
 		text-align: left !important;
 	}
+	.mils-subs-grid .mils-section-title {
+		text-align: left !important;
+	}
+	.mils-subs-grid .mils-desc {
+		text-align: left !important;
+	}
 }
 /* Hanya untuk lebar layar antara 768px dan 1024px (Tablet) */
 @media (min-width: 768px) and (max-width: 850px) {
@@ -254,6 +260,9 @@ body {
 	}
 	.mils-subs-grid .mils-desc {
 		text-align: center !important;
+	}
+	.mils-inp {
+		max-width: 300px !important;
 	}
 }
 /* Menargetkan layar KECIL (misalnya, lebar MAX 767px) */
@@ -355,7 +364,11 @@ body {
 	.mils-subs-grid .mils-desc {
 		text-align: center !important;
 	}
+	.mils-inp {
+		max-width: 300px !important;
+	}
 }
+
 
 
 
