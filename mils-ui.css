@@ -4,7 +4,7 @@ body {
 }
 .mils-wrapper {
 	box-sizing: border-box !important;
-	padding: 5vw 10vw !important;
+	padding: 5vw 3vw !important;
 }
 .mils-cols {
 	font-family: 'Poppins', sans-serif !important;
@@ -241,6 +241,12 @@ body {
 }
 /* Menargetkan layar KECIL (misalnya, lebar MAX 767px) */
 @media (max-width: 767px) {
+	.mils-wrapper {
+		padding: 5vw 3vw !important;
+	}
+	.mils-row > .col {
+		padding: 5px !important;
+	}
 	.mils-grid-item-top {
 		height: 300px !important;
 		top: 0 !important;
@@ -295,6 +301,7 @@ body {
 		width: 100% !important;
 	}
 }
+
 
 
 
