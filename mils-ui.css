@@ -205,7 +205,7 @@ body {
 	}
 }
 /* Hanya untuk lebar layar antara 768px dan 1024px (Tablet) */
-@media (min-width: 768px) and (max-width: 849px) {
+@media (min-width: 768px) and (max-width: 850px) {
 	.mils-grid-item-top {
 		height: 300px !important;
 		top: 0 !important;
@@ -249,6 +249,12 @@ body {
 	}
 	.mils-subs {
 	    width: max-content !important;
+	}
+	.mils-subs-grid .mils-section-title {
+		text-align: center !important;
+	}
+	.mils-subs-grid .mils-desc {
+		text-align: center !important;
 	}
 }
 /* Menargetkan layar KECIL (misalnya, lebar MAX 767px) */
@@ -351,6 +357,7 @@ body {
 		text-align: center !important;
 	}
 }
+
 
 
 
