@@ -14,7 +14,7 @@ body {
 	padding: .8em !important;
 	border-radius: 1.6em !important;
 }
-.mils-wellcome-slider ol li.dot {
+.mils-wellcome-slider ol li.dot, mils-overview ol li.dot {
 	border-radius: 5px !important;
     height: 10px !important;
     width: 10px !important;
@@ -23,7 +23,7 @@ body {
 .mils-wellcome-slider .banner-inner .fill {
 	border-radius: 0px !important;
 }
-.mils-wellcome-slider ol li.dot.is-selected {
+.mils-wellcome-slider ol li.dot.is-selected, mils-overview ol li.dot.is-selected {
 	font-family: 'Poppins', sans-serif !important;
 	width: 50px !important;
 }
@@ -134,6 +134,7 @@ body {
     text-transform: none !important;
 	width: max-content !important;
 	min-width: 80px !important;
+	margin-right: 0px !important;
 }
 .mils-stack {
 	padding: .8em !important;
@@ -342,7 +343,14 @@ body {
 	.mils-product-title {
 		margin-top: .4em !important;
 	}
+	.mils-subs .mils-section-title {
+		text-align: center;
+	}
+	.mils-subs .mils-desc {
+		text-align: center;
+	}
 }
+
 
 
 
