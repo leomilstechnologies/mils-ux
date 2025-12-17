@@ -130,7 +130,7 @@ body {
 .mils-section-title {
 	padding: 0px !important;
 	margin: 0px;
-	margin-bottom: 5vw !important;
+	margin-bottom: 2.5vw !important;
 	font-family: 'Poppins', sans-serif !important;
 	font-size: clamp(25px, 4vw, 40px) !important;
 }
@@ -285,6 +285,7 @@ body {
 		width: 100% !important;
 	}
 }
+
 
 
 
