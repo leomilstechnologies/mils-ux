@@ -102,12 +102,12 @@ body {
 .mils-btn {
 	font-family: 'Poppins', sans-serif !important;
 	font-size: clamp(.5em, 1.2vw, 1.5em) !important;
-	border-radius: 99px;
-    padding: 5px 2vw 5px 2vw;
+	border-radius: 99px !important;
+    padding: 5px 2vw 5px 2vw !important;
     margin-bottom: .5em;
     margin-top: .5em;
-    background-color: #424242;
-    color: #fff;
+    background-color: #424242 !important;
+    color: #fff !important;
     text-transform: none !important;
 	width: max-content !important;
 }
@@ -273,11 +273,12 @@ body {
 	    padding: 0px 2vw !important;
 	    align-items: center;
 	}
-	.mils-btn {
+	.mils-subs-grid .mils-btn {
 		max-width: 300px !important;
 		width: 100% !important;
 	}
 }
+
 
 
 
