@@ -10,11 +10,18 @@ body {
 	font-family: 'Poppins', sans-serif !important;
 	max-width: 400px !important;
 }
+.mils-card .col-inner {
+	padding: .8em !important;
+	border-radius: 1.6em !important;
+}
 .mils-wellcome-slider ol li.dot {
 	border-radius: 5px !important;
     height: 10px !important;
     width: 10px !important;
     background: #fff !important;
+}
+.mils-wellcome-slider .banner-bg .bg.fill.bg-fill.bg-loaded {
+	border-radius: 0px !important
 }
 .mils-wellcome-slider ol li.dot.is-selected {
 	font-family: 'Poppins', sans-serif !important;
@@ -31,13 +38,18 @@ body {
 .mils-subtitle-h2 {
 	font-family: 'Poppins', sans-serif !important;
 	font-size: clamp(10px, 1.5vw, 30px) !important;
+	margin-bottom: 1vw !important;
+}
+.mils-product-title {
+	font-family: 'Poppins', sans-serif !important;
+	font-size: clamp(16px, 2.4vw, 30px) !important;
 }
 .mils-desc-title {
 	font-family: 'Poppins', sans-serif !important;
 	font-size: clamp(16px, 2.4vw, 30px) !important;
 }
 .mils-capsul .box-image {
-   border-radius: 1em;
+   border-radius: .8em !important;
 }
 .mils-capsul .box-text {
    padding: 0 !important;
@@ -262,5 +274,6 @@ body {
 		width: 100% !important;
 	}
 }
+
 
 
