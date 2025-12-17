@@ -20,8 +20,8 @@ body {
     width: 10px !important;
     background: #fff !important;
 }
-.mils-wellcome-slider .banner-bg {
-	border-radius: 0px !important
+.mils-wellcome-slider .banner-inner .fill {
+	border-radius: 0px !important;
 }
 .mils-wellcome-slider ol li.dot.is-selected {
 	font-family: 'Poppins', sans-serif !important;
@@ -277,6 +277,7 @@ body {
 		width: 100% !important;
 	}
 }
+
 
 
 
