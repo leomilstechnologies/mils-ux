@@ -344,12 +344,13 @@ body {
 		margin-top: .4em !important;
 	}
 	.mils-subs .mils-section-title {
-		text-align: center;
+		text-align: center !important;
 	}
 	.mils-subs .mils-desc {
-		text-align: center;
+		text-align: center !important;
 	}
 }
+
 
 
 
