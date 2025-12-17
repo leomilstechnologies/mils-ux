@@ -42,7 +42,7 @@ body {
 }
 .mils-product-title {
 	font-family: 'Poppins', sans-serif !important;
-	font-size: clamp(16px, 2.4vw, 30px) !important;
+	font-size: clamp(12px, 2vw, 20px) !important;
 }
 .mils-desc-title {
 	font-family: 'Poppins', sans-serif !important;
@@ -109,6 +109,9 @@ body {
     background-color: #424242;
     color: #fff;
     text-transform: none !important;
+}
+.mils-stack {
+	padding: .8em !important;
 }
 .mils-gallery {
 	height: 800px !important;
@@ -274,6 +277,7 @@ body {
 		width: 100% !important;
 	}
 }
+
 
 
 
