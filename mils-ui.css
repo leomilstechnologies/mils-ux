@@ -75,12 +75,15 @@ body {
 }
 .mils-capsule-img .bg-loaded{
 	position: relative !important;
-    padding: 10px !important;
+    padding: .8em !important;
     box-sizing: border-box;
-    height: calc(100% - 30px);
-    width: calc(100% - 30px);
+    height: calc(100% - 1.6em);
+    width: calc(100% - 1.6em);
     left: unset;
-    margin: 15px !important;
+    margin: .8em !important;
+}
+.mils-capsule-img .banner-inner .fill {
+	border-radius: .4em !important;
 }
 .mils-subs {
 	display: flex;
@@ -282,6 +285,7 @@ body {
 		width: 100% !important;
 	}
 }
+
 
 
 
