@@ -343,13 +343,14 @@ body {
 	.mils-product-title {
 		margin-top: .4em !important;
 	}
-	.mils-subs .mils-section-title {
+	.mils-subs-grid .mils-section-title {
 		text-align: center !important;
 	}
-	.mils-subs .mils-desc {
+	.mils-subs-grid .mils-desc {
 		text-align: center !important;
 	}
 }
+
 
 
 
