@@ -1,4 +1,4 @@
-/* Mils Costum CSS */
+,/* Mils Costum CSS */
 body {
 	font-family: 'Poppins', sans-serif !important;
 }
@@ -365,9 +365,11 @@ body {
 		text-align: center !important;
 	}
 	.mils-inp {
+		padding: 5px 3vw !important;
 		max-width: 300px !important;
 	}
 }
+
 
 
 
