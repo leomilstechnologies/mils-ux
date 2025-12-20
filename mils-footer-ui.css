@@ -1,1 +1,7 @@
-
+.mils-footer-section * {
+  position: relative;
+  box-sizing: border-box;
+}
+.mils-footer-section {
+  
+}
