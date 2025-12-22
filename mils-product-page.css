@@ -36,3 +36,19 @@ span.woocommerce-Price-amount.amount {
   font-size: 2.5em;
   color: #505050;
 }
+.breadcrumbs a {
+  font-weight: 500;
+  font-size: 1.2em;
+}
+.product-short-description {
+  display: none !important;
+}
+.cfvsw-product-page table.variations .label label {
+  font-weight: 500;
+  font-size: 1.3em;
+  letter-spacing: 1.2px;
+}
+.cfvsw-swatches-option.cfvsw-label-option {
+  padding: 10px 20px;
+  border-radius: .6em !important;
+}
