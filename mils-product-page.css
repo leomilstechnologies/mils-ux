@@ -59,8 +59,19 @@ table.variations {
   border: 1px solid rgba(0, 0, 0, .5);
   border-radius: .4em;
   overflow: hidden;
+  padding: 5px 20px;
+  background: #fff;
 }
 .ux-quantity input, .quantity .button.minus, .quantity .button.plus {
   border-style: none !important;
   background-color: #fff;
+  box-shadow: none !important;
+}
+.current .breadcrumb-step, [data-icon-label]:after, .button#place_order, .button.checkout, .checkout-button, .single_add_to_cart_button.button, .sticky-add-to-cart-select-options-button {
+  text-decoration: none;
+  text-transform: none;
+  font-weight: 400;
+  padding: 5px 30px;
+  border-radius: .4em;
+  overflow: hidden;
 }
