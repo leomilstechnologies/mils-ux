@@ -60,7 +60,7 @@ table.variations {
   border-radius: .4em;
   overflow: hidden;
 }
-.ux-quantity input {
+.ux-quantity input, .quantity .button.minus, .quantity .button.plus {
   border-style: none !important;
   background-color: #fff;
 }
