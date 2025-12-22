@@ -1,1 +1,35 @@
-
+#main {
+  background-color: #F0F0F0;
+}
+.custom-product-page {
+  margin-top: 20px;
+}
+.mils-tags span.tagged_as {
+  display: block;
+  padding: 5px 15px;
+  width: max-content;
+  background-color: #ADADAD;
+  border-radius: .4em;
+}
+.mils-tags span.tagged_as a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.3em;
+  letter-spacing: 1.2px;
+}
+.mils-tags span.tagged_as a:hover {
+  color: #fff;
+}
+.product-title-container h1.entry-title {
+  font-weight: 400;
+  color: #505050;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+.product-title-container .is-divider {
+  display: none !important;
+}
+.span.woocommerce-Price-amount.amount {
+  font-size: 2.5em;
+  color: #505050;
+}
