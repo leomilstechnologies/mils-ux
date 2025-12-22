@@ -1,5 +1,5 @@
 #main {
-  background-color: #F0F0F0;
+  background-color: #F0F0F0 !important;
 }
 .custom-product-page {
   margin-top: 20px;
@@ -51,4 +51,16 @@ span.woocommerce-Price-amount.amount {
 .cfvsw-swatches-option.cfvsw-label-option {
   padding: 10px 20px;
   border-radius: .6em !important;
+}
+table.variations {
+  border-spacing: 0em 1em;
+}
+.ux-quantity {
+  border: 1px solid rgba(0, 0, 0, .5);
+  border-radius: .4em;
+  overflow: hidden;
+}
+.ux-quantity input {
+  border-style: none !important;
+  background-color: #fff;
 }
