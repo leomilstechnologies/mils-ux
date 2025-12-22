@@ -4,6 +4,9 @@
 .custom-product-page {
   margin-top: 20px;
 }
+.mils-tags {
+  padding-bottom: 2em;
+}
 .mils-tags span.tagged_as {
   display: block;
   padding: 5px 15px;
@@ -29,7 +32,7 @@
 .product-title-container .is-divider {
   display: none !important;
 }
-.span.woocommerce-Price-amount.amount {
+span.woocommerce-Price-amount.amount {
   font-size: 2.5em;
   color: #505050;
 }
