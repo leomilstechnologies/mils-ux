@@ -87,6 +87,14 @@ table.variations {
 }
 .yith-wcwl-add-to-wishlist {
   margin: 0;
+  width: max-content;
+  margin: 0;
+  padding: 5px 15px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #D4D4D4;
+  border-radius: .5em;
 }
 .yith-wcwl-add-to-wishlist span {
   display: none;
@@ -96,14 +104,4 @@ table.variations {
 }
 .yith-wcwl-add-button .add_to_wishlist svg.yith-wcwl-icon-svg, .yith-wcwl-add-button .add_to_wishlist img {
   margin: 0;
-}
-.yith-wcwl-add-to-wishlist add-to-wishlist-4098 {
-  width: max-content;
-  margin: 0;
-  padding: 5px 15px;
-  display: grid;
-  justify-items: center;
-  align-items: center;
-  background-color: #D4D4D4;
-  border-radius: .5em;
 }
