@@ -61,6 +61,7 @@ table.variations {
   overflow: hidden;
   padding: 5px 20px;
   background: #fff;
+  margin: 0;
 }
 .ux-quantity input, .quantity .button.minus, .quantity .button.plus {
   border-style: none !important;
@@ -74,4 +75,29 @@ table.variations {
   padding: 5px 30px;
   border-radius: .4em;
   overflow: hidden;
+}
+*[display="false"] {
+  display: none !important;
+}
+.woocommerce-variation-add-to-cart {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: max-content 1fr max-content;
+  grid-gap: 1em;
+}
+.single_add_to_cart_button {
+  margin: 0 !important;
+}
+.yith-wcwl-add-button .add_to_wishlist svg.yith-wcwl-icon-svg, .yith-wcwl-add-button .add_to_wishlist img {
+  margin: 0;
+}
+.yith-wcwl-add-to-wishlist add-to-wishlist-4098 {
+  width: max-content;
+  margin: 0;
+  padding: 5px 15px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #D4D4D4;
+  border-radius: .5em;
 }
