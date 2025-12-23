@@ -62,7 +62,7 @@ table.variations {
   overflow: hidden;
   padding: 5px 20px;
   background: #fff;
-  margin: 0;
+  margin: 0 !important;
 }
 .ux-quantity input, .quantity .button.minus, .quantity .button.plus {
   border-style: none !important;
