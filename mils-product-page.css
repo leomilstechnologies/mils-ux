@@ -102,7 +102,7 @@ table.variations {
 }
 .single_add_to_cart_button {
   margin: 0 !important;
-  background-color: #2F3133;
+  background-color: #2F3133 !important;
 }
 .yith-wcwl-add-button .add_to_wishlist svg.yith-wcwl-icon-svg, .yith-wcwl-add-button .add_to_wishlist img {
   margin: 0;
