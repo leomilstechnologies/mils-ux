@@ -24,16 +24,17 @@
   color: #fff;
 }
 .product-title-container h1.entry-title {
-  font-weight: 400;
+  font-weight: 700;
   color: #505050;
-  font-size: 1.5em;
+  font-size: 3em;
   margin-bottom: 1em;
 }
 .product-title-container .is-divider {
   display: none !important;
 }
 span.woocommerce-Price-amount.amount {
-  font-size: 2.5em;
+  font-weight: 500;
+  font-size: 1.8em;
   color: #505050;
 }
 .breadcrumbs a {
@@ -101,7 +102,14 @@ table.variations {
 }
 .single_add_to_cart_button {
   margin: 0 !important;
+  background-color: #2F3133;
 }
 .yith-wcwl-add-button .add_to_wishlist svg.yith-wcwl-icon-svg, .yith-wcwl-add-button .add_to_wishlist img {
   margin: 0;
+}
+.cfvsw-label-option, .cfvsw-image-option {
+  border: 1px solid #00000000;
+}
+.cfvsw-swatches-option:not( .cfvsw-swatches-disabled, .cfvsw-swatches-out-of-stock ):hover {
+  border-color: #000000c7;
 }
