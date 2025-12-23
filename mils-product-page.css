@@ -85,6 +85,12 @@ table.variations {
   grid-template-columns: max-content 1fr max-content;
   grid-gap: 1em;
 }
+.yith-wcwl-add-to-wishlist {
+  margin: 0;
+}
+.yith-wcwl-add-to-wishlist span {
+  display: none;
+}
 .single_add_to_cart_button {
   margin: 0 !important;
 }
