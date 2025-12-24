@@ -155,6 +155,9 @@ body {
 .mils-no-margin {
 	margin: 0px !important;
 }
+.mils-overview .slider .section-content.relative {
+	transform: translateX(-50%);
+}
 @media (min-width: 850px) and (max-width: 1024px) {
 	.mils-gallery {
 		height: 600px !important;
@@ -264,6 +267,9 @@ body {
 	.mils-inp {
 		max-width: 300px !important;
 	}
+	.mils-overview .slider .section-content.relative {
+		transform: translateX(0%);
+	}
 }
 /* Menargetkan layar KECIL (misalnya, lebar MAX 767px) */
 @media (max-width: 767px) {
@@ -368,7 +374,11 @@ body {
 		padding: 5px 3vw !important;
 		max-width: 300px !important;
 	}
+	.mils-overview .slider .section-content.relative {
+		transform: translateX(0%);
+	}
 }
+
 
 
 
