@@ -1,7 +1,7 @@
 .social-button, .social-icons .button.icon:hover, .social-icons .button.icon:not(.is-outline) {
-  background-color: DBDBDB !important;
+  background-color: #DBDBDB !important;
   border: none !important;
 }
 .social-button>i, .social-button>span, .social-icons .button.icon:hover>i, .social-icons .button.icon:hover>span, .social-icons .button.icon:not(.is-outline)>i, .social-icons .button.icon:not(.is-outline)>span {
-  color: 424242 !important;
+  color: #424242 !important;
 }
