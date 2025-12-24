@@ -211,9 +211,6 @@ body {
 	.mils-subs-grid .mils-desc {
 		text-align: left !important;
 	}
-	.mils-overview .slider .section-content.relative {
-		transform: translateX(-50%);
-	}
 }
 /* Hanya untuk lebar layar antara 768px dan 1024px (Tablet) */
 @media (min-width: 768px) and (max-width: 850px) {
@@ -271,7 +268,7 @@ body {
 		max-width: 300px !important;
 	}
 	.mils-overview .slider .section-content.relative {
-		transform: translateX(0%);
+		transform: translateX(-50%);
 	}
 }
 /* Menargetkan layar KECIL (misalnya, lebar MAX 767px) */
@@ -381,6 +378,7 @@ body {
 		transform: translateX(0%);
 	}
 }
+
 
 
 
