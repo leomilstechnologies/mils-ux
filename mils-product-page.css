@@ -225,6 +225,9 @@ table.variations {
 }
 @media (max-width: 767px) {
   .product-title-container h1.entry-title {
-    font-size: 2em;
+    font-size: 1.6em;
+  }
+  .product-page-price {
+    .8em
   }
 }
