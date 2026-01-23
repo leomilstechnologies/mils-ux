@@ -129,8 +129,8 @@ table.variations {
 /* Container Utama */
 .woocommerce-tabs-accordion.custom-accordion {
     margin-top: 30px;
-    border-top: 1px solid #e5e5e5;
-    border-bottom: 1px solid #e5e5e5;
+    border-top: 2px solid #c8c8c8;
+    border-bottom: 2px solid #c8c8c8;
     border-radius: 5px;
     overflow: hidden;
     width: 100%;
@@ -139,7 +139,7 @@ table.variations {
 
 /* Item Wrapper */
 .woocommerce-tabs-accordion .accordion-item {
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 2px solid #c8c8c8;
     background: #ffffff00;
 }
 
@@ -150,7 +150,7 @@ table.variations {
 /* Header (Judul) */
 .woocommerce-tabs-accordion .accordion-header {
     background-color: #fcfcfc00;
-    padding: 15px 20px;
+    padding: 20px 20px;
     font-weight: 700;
     cursor: pointer;
     list-style: none;
