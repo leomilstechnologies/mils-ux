@@ -182,7 +182,7 @@ table.variations {
 
 /* Ubah warna header saat terbuka */
 .woocommerce-tabs-accordion .accordion-item[open] .accordion-header {
-    background-color: #fff;
+    background-color: #ffffff00;
     border-bottom: 1px solid #f0f0f0;
 }
 
