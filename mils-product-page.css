@@ -114,6 +114,11 @@ table.variations {
   border-color: #000000c7;
 }
 
+/* Sembunyikan Tabs Bawaan Flatsome */
+.product-footer .woocommerce-tabs.wc-tabs-wrapper,
+.woocommerce-tabs.wc-tabs-wrapper.tabbed-content {
+    display: none !important;
+}
 
 /* Container Utama Accordion */
 .woocommerce-tabs-accordion {
