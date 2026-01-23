@@ -241,6 +241,11 @@ table.variations {
 .is-sticky-column {
     top: 90px !important; 
 }
+.accordion-title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
 
 .accordion-title-wrapper .material-icons {
     font-size: 20px;
