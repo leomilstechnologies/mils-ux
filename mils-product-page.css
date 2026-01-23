@@ -120,7 +120,7 @@ table.variations {
   border-color: #000000c7;
 }
 
-/* Sembunyikan Tabs Bawaan Flatsome */
+/* Hapus Tabs Bawaan Flatsome */
 .product-footer .woocommerce-tabs.wc-tabs-wrapper,
 .woocommerce-tabs.wc-tabs-wrapper.tabbed-content {
     display: none !important;
@@ -128,94 +128,93 @@ table.variations {
 
 /* Container Utama */
 .woocommerce-tabs-accordion.custom-accordion {
-    margin-top: 30px;
-    border-top: 1px solid #e5e5e5;
-    border-bottom: 1px solid #e5e5e5;
-    border-radius: 5px;
-    overflow: hidden;
-    width: 100%;
-    clear: both;
+    border: 1px solid #e5e5e5; /* Border luar */
+    border-radius: 3px;
+    margin-bottom: 20px;
 }
 
-/* Item Wrapper */
+/* Item Accordion */
 .woocommerce-tabs-accordion .accordion-item {
     border-bottom: 1px solid #e5e5e5;
-    background: #ffffff00;
+    background: #fff;
 }
-
 .woocommerce-tabs-accordion .accordion-item:last-child {
     border-bottom: none;
 }
 
-/* Header (Judul) */
+/* Header (Bagian yang diklik) */
 .woocommerce-tabs-accordion .accordion-header {
-    background-color: #fcfcfc00;
+    background-color: #f9f9f9; /* Warna background header (abu muda) */
     padding: 15px 20px;
-    font-weight: 700;
     cursor: pointer;
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: all 0.3s ease;
     outline: none;
+    transition: background-color 0.2s;
 }
-
-/* Hover Effect */
 .woocommerce-tabs-accordion .accordion-header:hover {
-    background-color: #ffffff00;
+    background-color: #f0f0f0;
 }
-
-/* Remove default marker */
 .woocommerce-tabs-accordion .accordion-header::-webkit-details-marker {
     display: none;
 }
 
-/* Icon Animation */
-.woocommerce-tabs-accordion .accordion-icon {
-    font-size: 18px;
-    font-weight: normal;
+/* Wrapper Judul & Icon Kiri */
+.accordion-title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* Jarak antara icon dan teks */
+}
+.accordion-title-wrapper i {
+    font-size: 18px; /* Ukuran icon */
+    color: #555;     /* Warna icon abu gelap */
+}
+.accordion-title-text {
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Panah Chevron (Kanan) menggunakan CSS Border */
+.accordion-arrow {
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid #999;
+    border-bottom: 2px solid #999;
+    transform: rotate(45deg); /* Membentuk panah ke bawah */
     transition: transform 0.3s ease;
-    line-height: 1;
+    margin-right: 5px;
 }
 
-/* --- STATE: OPEN --- */
-
-/* Putar Icon saat terbuka */
-.woocommerce-tabs-accordion .accordion-item[open] .accordion-header .accordion-icon {
-    transform: rotate(45deg);
-}
-
-/* Ubah warna header saat terbuka */
+/* STATE: OPEN (Saat Terbuka) */
 .woocommerce-tabs-accordion .accordion-item[open] .accordion-header {
-    background-color: #ffffff00;
-    border-bottom: 1px solid #f0f0f0;
+    background-color: #fff; /* Header jadi putih saat aktif */
+    border-bottom: 1px solid #f1f1f1;
+}
+.woocommerce-tabs-accordion .accordion-item[open] .accordion-arrow {
+    transform: rotate(-135deg); /* Memutar panah ke atas */
+    border-color: #333;
 }
 
-/* Konten dengan Animasi Slide Down */
+/* Konten Isi */
 .woocommerce-tabs-accordion .accordion-content {
     padding: 20px;
-    background: #ffffff00;
+    background: #fff;
+    color: #666;
     line-height: 1.6;
-    color: #555;
-    /* Animasi */
-    animation: slideDown 0.4s ease-out;
-    transform-origin: top;
+    font-size: 15px;
+    /* Animasi Slide */
+    animation: slideDown 0.3s ease-out;
 }
 
-/* Keyframes untuk efek smooth opening */
 @keyframes slideDown {
-    0% {
-        opacity: 0;
-        transform: translateY(-10px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
-/* Fix untuk Judul Ganda di Description/Reviews */
+/* Bersihkan Judul Ganda di dalam Konten */
 .woocommerce-tabs-accordion .accordion-content > h2:first-child,
 .woocommerce-tabs-accordion .accordion-content > h3:first-child {
     display: none;
