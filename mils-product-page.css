@@ -241,6 +241,18 @@ table.variations {
 .is-sticky-column {
     top: 90px !important; 
 }
+
+.accordion-title-wrapper i {
+    font-family: 'fl-icons' !important; /* WAJIB ADA */
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    font-size: 18px; 
+    color: #555;
+    display: inline-block;
+}
+
 @media (max-width: 767px) {
   .product-title-container h1.entry-title {
     font-size: 1.6em;
