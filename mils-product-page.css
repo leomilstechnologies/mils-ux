@@ -123,7 +123,8 @@ table.variations {
 /* Container Utama */
 .woocommerce-tabs-accordion.custom-accordion {
     margin-top: 30px;
-    border: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
     border-radius: 5px;
     overflow: hidden;
     width: 100%;
@@ -133,7 +134,7 @@ table.variations {
 /* Item Wrapper */
 .woocommerce-tabs-accordion .accordion-item {
     border-bottom: 1px solid #e5e5e5;
-    background: #fff;
+    background: #ffffff00;
 }
 
 .woocommerce-tabs-accordion .accordion-item:last-child {
@@ -156,7 +157,7 @@ table.variations {
 
 /* Hover Effect */
 .woocommerce-tabs-accordion .accordion-header:hover {
-    background-color: #f0f0f0;
+    background-color: #ffffff00;
 }
 
 /* Remove default marker */
@@ -188,7 +189,7 @@ table.variations {
 /* Konten dengan Animasi Slide Down */
 .woocommerce-tabs-accordion .accordion-content {
     padding: 20px;
-    background: #fff;
+    background: #ffffff00;
     line-height: 1.6;
     color: #555;
     /* Animasi */
