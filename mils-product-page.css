@@ -242,15 +242,16 @@ table.variations {
     top: 90px !important; 
 }
 
-.accordion-title-wrapper i {
-    font-family: 'fl-icons' !important; /* WAJIB ADA */
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    line-height: 1;
-    font-size: 18px; 
+.accordion-title-wrapper .material-icons {
+    font-size: 20px;
     color: #555;
+    line-height: 1;
     display: inline-block;
+}
+
+.accordion-header:hover .accordion-title-wrapper .material-icons,
+.accordion-item[open] .accordion-title-wrapper .material-icons {
+    color: #333;
 }
 
 @media (max-width: 767px) {
