@@ -223,3 +223,8 @@ table.variations {
 .is-sticky-column {
     top: 90px !important; 
 }
+@media (max-width: 767px) {
+  .product-title-container h1.entry-title {
+    font-size: 2em;
+  }
+}
