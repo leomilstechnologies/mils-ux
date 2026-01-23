@@ -275,6 +275,10 @@ accordion-title-wrapper .custom-svg-icon {
     color: #555; /* Warna default (abu-abu) */
 }
 
+.accordion-title-wrapper i {
+    font-size: 1.125em;
+}
+
 @media (max-width: 767px) {
   .product-title-container h1.entry-title {
     font-size: 1.6em;
