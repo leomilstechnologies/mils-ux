@@ -214,3 +214,6 @@ table.variations {
 .woocommerce-tabs-accordion .accordion-content > h3:first-child {
     display: none;
 }
+.is-sticky-column {
+    top: 90px !important; 
+}
