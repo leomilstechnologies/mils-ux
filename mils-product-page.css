@@ -113,3 +113,76 @@ table.variations {
 .cfvsw-swatches-option:not( .cfvsw-swatches-disabled, .cfvsw-swatches-out-of-stock ):hover {
   border-color: #000000c7;
 }
+
+
+/* Container Utama Accordion */
+.woocommerce-tabs-accordion {
+    margin-top: 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Item Accordion */
+.woocommerce-tabs-accordion .accordion-item {
+    border-bottom: 1px solid #e5e5e5;
+    background: #fff;
+}
+
+.woocommerce-tabs-accordion .accordion-item:last-child {
+    border-bottom: none;
+}
+
+/* Header (Judul yang diklik) */
+.woocommerce-tabs-accordion .accordion-header {
+    background-color: #f7f7f7; /* Warna background judul */
+    padding: 15px 20px;
+    font-weight: 700;
+    cursor: pointer;
+    list-style: none; /* Hilangkan segitiga default browser */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s;
+}
+
+/* Hover effect */
+.woocommerce-tabs-accordion .accordion-header:hover {
+    background-color: #eee;
+}
+
+/* Menghilangkan marker default di beberapa browser */
+.woocommerce-tabs-accordion .accordion-header::-webkit-details-marker {
+    display: none;
+}
+
+/* Konten di dalam */
+.woocommerce-tabs-accordion .accordion-content {
+    padding: 20px;
+    background: #fff;
+    line-height: 1.6;
+}
+
+/* ANIMASI IKON (+) */
+.accordion-icon {
+    font-weight: bold;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+/* Saat Accordion Terbuka */
+.woocommerce-tabs-accordion .accordion-item[open] .accordion-header {
+    background-color: #fff; /* Opsi: warna saat aktif */
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.woocommerce-tabs-accordion .accordion-item[open] .accordion-icon {
+    transform: rotate(45deg); /* Memutar tanda + menjadi x */
+}
+
+/* Khusus untuk Tab Description & Reviews bawaan: 
+   Sembunyikan judul H2/H3 bawaan yang sering muncul ganda di dalam konten */
+.woocommerce-tabs-accordion .accordion-content > h2:first-child,
+.woocommerce-tabs-accordion .accordion-content > h3:first-child {
+    display: none;
+}
