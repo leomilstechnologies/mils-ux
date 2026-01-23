@@ -143,7 +143,7 @@ table.variations {
 
 /* Header (Judul) */
 .woocommerce-tabs-accordion .accordion-header {
-    background-color: #fcfcfc;
+    background-color: #fcfcfc00;
     padding: 15px 20px;
     font-weight: 700;
     cursor: pointer;
