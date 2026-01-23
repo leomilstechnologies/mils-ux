@@ -275,11 +275,15 @@ accordion-title-wrapper .custom-svg-icon {
 
 /* Styling SVG (Ukuran & Garis) */
 .accordion-title-wrapper .custom-svg-icon svg {
-    width: 20px;   /* Ukuran icon disesuaikan dengan gambar referensi */
-    height: 20px;
-    stroke-width: 2px; /* Ketebalan garis */
+    width: 30px;
+    height: 30px;
+    stroke-width: 1.3px;
     transition: all 0.3s ease;
     color: #555;   /* Warna default (Abu-abu) */
+}
+.accordion-title-text {
+    font-size: 1.3em;
+    font-weight: 500;
 }
 
 @media (max-width: 767px) {
