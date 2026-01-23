@@ -171,42 +171,27 @@ table.variations {
 .woocommerce-tabs-accordion .accordion-header::-webkit-details-marker {
     display: none;
 }
-
-/* Icon Animation */
-.woocommerce-tabs-accordion .accordion-icon {
-    font-size: 18px;
-    font-weight: normal;
+/* Panah Chevron (Kanan) menggunakan CSS Border */
+.accordion-arrow {
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid #999;
+    border-bottom: 2px solid #999;
+    transform: rotate(45deg); /* Membentuk panah ke bawah */
     transition: transform 0.3s ease;
-    line-height: 1;
-
-
-
-
-
-
-
-
+    margin-right: 5px;
 }
 
-/* --- STATE: OPEN --- */
-
-/* Putar Icon saat terbuka */
-.woocommerce-tabs-accordion .accordion-item[open] .accordion-header .accordion-icon {
-    transform: rotate(45deg);
-
-
-
-
+/* STATE: OPEN (Saat Terbuka) */
+.woocommerce-tabs-accordion .accordion-item[open] .accordion-arrow {
+    transform: rotate(-135deg); /* Memutar panah ke atas */
+    border-color: #333;
 }
 
 /* Ubah warna header saat terbuka */
 .woocommerce-tabs-accordion .accordion-item[open] .accordion-header {
     background-color: #ffffff00;
     border-bottom: 1px solid #f0f0f0;
-
-
-
-
 }
 
 /* Konten dengan Animasi Slide Down */
