@@ -279,6 +279,24 @@ accordion-title-wrapper .custom-svg-icon {
     font-size: 1.125em;
 }
 
+/* Styling Wrapper Icon */
+.accordion-title-wrapper .custom-svg-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    margin-right: 2px; /* Sedikit penyesuaian jarak */
+}
+
+/* Styling SVG (Ukuran & Garis) */
+.accordion-title-wrapper .custom-svg-icon svg {
+    width: 20px;   /* Ukuran icon disesuaikan dengan gambar referensi */
+    height: 20px;
+    stroke-width: 2px; /* Ketebalan garis */
+    transition: all 0.3s ease;
+    color: #555;   /* Warna default (Abu-abu) */
+}
+
 @media (max-width: 767px) {
   .product-title-container h1.entry-title {
     font-size: 1.6em;
