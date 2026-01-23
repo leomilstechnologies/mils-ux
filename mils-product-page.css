@@ -35,6 +35,9 @@ body {
 .product-title-container .is-divider {
   display: none !important;
 }
+.price-wrapper .price.product-page-price {
+  line-height: 2em;
+}
 span.woocommerce-Price-amount.amount {
   font-weight: 500;
   font-size: 1.8em;
