@@ -371,3 +371,43 @@ accordion-title-wrapper .custom-svg-icon {
 .woocommerce-product-gallery .flex-control-nav.flex-control-thumbs::-webkit-scrollbar-thumb:hover {
     background: #888; 
 }
+
+/* --- Styling Video di Dalam Slider Thumbnail --- */
+
+/* Pastikan item video mengikuti lebar 1/3 layar seperti gambar lainnya */
+.woocommerce-product-gallery .flex-control-nav.flex-control-thumbs li.mils-video-slide {
+    flex: 0 0 33.333% !important;
+    max-width: 33.333% !important;
+    width: 33.333% !important;
+    padding: 0 5px !important;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center; /* Agar video vertikal center */
+}
+
+/* Styling Container Video (Wrapper) */
+.mils-video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Rasio 16:9 Youtube */
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Paksa Iframe memenuhi kotak */
+.mils-video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    pointer-events: auto; /* Agar tombol play bisa diklik */
+}
+
+/* Hapus border/opacity effect karena ini video, bukan thumbnail aktif */
+.woocommerce-product-gallery .flex-control-nav.flex-control-thumbs li.mils-video-slide img {
+    display: none; /* Jaga-jaga jika ada img nyasar */
+}
