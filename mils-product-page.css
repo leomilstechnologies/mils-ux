@@ -294,3 +294,49 @@ accordion-title-wrapper .custom-svg-icon {
     font-size: .8em
   }
 }
+/* --- UBAH GRID THUMBNAIL JADI SLIDER --- */
+
+/* 1. Atur wadah thumbnail agar berjejer ke samping (bukan ke bawah) */
+.product-thumbnails {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important; /* Agar bisa digeser/scroll */
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 10px; /* Jarak dari gambar utama */
+    padding-bottom: 5px; /* Ruang untuk scrollbar tipis */
+}
+
+/* 2. Sembunyikan Scrollbar agar terlihat rapi (seperti slider asli) */
+.product-thumbnails::-webkit-scrollbar {
+    display: none; 
+}
+.product-thumbnails {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* 3. Atur ukuran tiap thumbnail (3 Gambar per layar) */
+.product-thumbnails .col {
+    flex: 0 0 33.33% !important; /* Lebar fix 33% */
+    max-width: 33.33% !important;
+    width: 33.33% !important;
+    padding: 0 4px; /* Jarak antar foto */
+    box-sizing: border-box;
+}
+
+/* 4. Pastikan gambar di dalam thumbnail terlihat bagus */
+.product-thumbnails img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Agar gambar tidak gepeng */
+    border-radius: 6px; /* Sudut melengkung ala modern */
+    opacity: 0.7; /* Sedikit transparan jika tidak aktif */
+    transition: 0.3s;
+}
+
+/* 5. Efek saat gambar disorot/hover */
+.product-thumbnails img:hover {
+    opacity: 1;
+    border: 1px solid #ccc;
+}
