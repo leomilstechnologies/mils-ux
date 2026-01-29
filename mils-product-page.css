@@ -299,39 +299,39 @@ accordion-title-wrapper .custom-svg-icon {
 /* 1. Container Slider */
 .woocommerce-product-gallery .flex-control-nav.flex-control-thumbs {
     display: flex !important;
-    flex-wrap: nowrap !important;
-    overflow-x: auto !important; /* Wajib auto agar bisa scroll */
+    flex-wrap: nowrap !important; /* Paksa satu baris lurus */
+    overflow-x: auto !important; /* Wajib auto agar scrollbar muncul */
     overflow-y: hidden !important;
     width: 100% !important;
     padding: 10px 0 !important;
     
-    /* Agar scroll terasa seperti Slider asli (berhenti per gambar) */
-    scroll-snap-type: x mandatory;
+    /* UX Modern */
+    scroll-snap-type: x mandatory; /* Agar berhenti pas di gambar */
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch; /* Smooth scroll untuk iOS */
     
-    /* Memastikan interaksi user tidak terblokir */
-    pointer-events: auto !important;
+    /* Penting: Izinkan browser menangani geseran */
+    touch-action: pan-x;
     cursor: grab;
 }
 
 /* 2. Item Thumbnail (3 Gambar per Slide) */
 .woocommerce-product-gallery .flex-control-nav.flex-control-thumbs li {
-    /* PENTING: flex-shrink 0 agar gambar TIDAK menyusut dan memaksa scroll muncul */
+    /* Mencegah gambar menyusut (Shrink) agar overflow terjadi */
     flex: 0 0 33.333% !important; 
     max-width: 33.333% !important;
     width: 33.333% !important;
     
-    /* Snap align agar berhenti rapi saat di-swipe */
+    /* Snap align */
     scroll-snap-align: start;
     
     padding: 0 5px !important;
     margin: 0 !important;
-    box-sizing: border-box !important;
     list-style: none !important;
+    box-sizing: border-box !important;
 }
 
-/* 3. Gambar di dalam thumbnail */
+/* 3. Gambar */
 .woocommerce-product-gallery .flex-control-nav.flex-control-thumbs li img {
     width: 100% !important;
     height: auto !important;
@@ -341,18 +341,33 @@ accordion-title-wrapper .custom-svg-icon {
     display: block !important;
 }
 
-/* 4. Gambar aktif (Highlight) */
+/* 4. Highlight Gambar Aktif */
 .woocommerce-product-gallery .flex-control-nav.flex-control-thumbs li img.flex-active {
     opacity: 1 !important;
     border: 1px solid #333 !important;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-/* 5. Sembunyikan Scrollbar (Opsional: Hapus bagian ini jika ingin scrollbar terlihat) */
+/* --- BAGIAN PENTING: SCROLLBAR NAVIGASI --- */
+
+/* Tampilkan scrollbar tipis agar user Desktop bisa menggeser */
 .woocommerce-product-gallery .flex-control-nav.flex-control-thumbs::-webkit-scrollbar {
-    display: none;
+    height: 6px; /* Tinggi scrollbar (cukup tebal untuk diklik mouse) */
+    display: block !important; /* Paksa muncul */
 }
-.woocommerce-product-gallery .flex-control-nav.flex-control-thumbs {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+
+/* Track (Jalur) Scrollbar */
+.woocommerce-product-gallery .flex-control-nav.flex-control-thumbs::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 4px;
+}
+
+/* Handle (Batang) Scrollbar yang bergerak */
+.woocommerce-product-gallery .flex-control-nav.flex-control-thumbs::-webkit-scrollbar-thumb {
+    background: #ccc; /* Warna batang */
+    border-radius: 4px;
+}
+
+/* Efek saat mouse diarahkan ke scrollbar */
+.woocommerce-product-gallery .flex-control-nav.flex-control-thumbs::-webkit-scrollbar-thumb:hover {
+    background: #888; 
 }
