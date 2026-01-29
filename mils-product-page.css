@@ -374,40 +374,75 @@ accordion-title-wrapper .custom-svg-icon {
 
 /* --- Styling Video di Dalam Slider Thumbnail --- */
 
-/* Pastikan item video mengikuti lebar 1/3 layar seperti gambar lainnya */
-.woocommerce-product-gallery .flex-control-nav.flex-control-thumbs li.mils-video-slide {
-    flex: 0 0 33.333% !important;
-    max-width: 33.333% !important;
-    width: 33.333% !important;
-    padding: 0 5px !important;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center; /* Agar video vertikal center */
-}
+/* --- SYSTEM VIDEO OVERLAY --- */
 
-/* Styling Container Video (Wrapper) */
-.mils-video-wrapper {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; /* Rasio 16:9 Youtube */
-    height: 0;
-    overflow: hidden;
-    border-radius: 8px;
-    background: #000;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-}
-
-/* Paksa Iframe memenuhi kotak */
-.mils-video-wrapper iframe {
+/* 1. Mengatur Player Video Utama agar menutupi gambar produk */
+.mils-video-overlay {
+    display: none; /* Sembunyi default */
     position: absolute;
     top: 0;
     left: 0;
-    width: 100% !important;
-    height: 100% !important;
-    pointer-events: auto; /* Agar tombol play bisa diklik */
+    width: 100%;
+    height: 100%; /* Menutupi area hijau sepenuhnya */
+    background: #000;
+    z-index: 99; /* Pastikan di atas gambar */
+    align-items: center;
+    justify-content: center;
 }
 
-/* Hapus border/opacity effect karena ini video, bukan thumbnail aktif */
-.woocommerce-product-gallery .flex-control-nav.flex-control-thumbs li.mils-video-slide img {
-    display: none; /* Jaga-jaga jika ada img nyasar */
+/* Membuat Iframe Responsive di Tengah */
+.mils-video-responsive {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.mils-video-responsive iframe {
+    width: 100%;
+    height: 100%; /* Full area */
+    object-fit: contain;
+}
+
+/* 2. Styling Thumbnail Video di Slider Bawah */
+.mils-video-thumb-li {
+    position: relative;
+    cursor: pointer;
+    flex: 0 0 33.333% !important; /* Wajib sama dengan settingan slider kamu */
+    max-width: 33.333% !important;
+    padding: 0 5px !important;
+    box-sizing: border-box;
+}
+
+/* Gambar Thumbnail Youtube */
+.mils-video-thumb-li img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+/* Efek Highlight saat Aktif */
+.mils-video-thumb-li img.flex-active {
+    opacity: 1 !important;
+    border: 2px solid #000; /* Border penanda */
+}
+
+/* Ikon Play Kecil di tengah Thumbnail (Pemanis) */
+.mils-play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0,0,0,0.7);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    pointer-events: none; /* Agar klik tembus ke li */
 }
