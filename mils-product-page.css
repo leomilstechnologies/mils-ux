@@ -11,17 +11,18 @@ body {
   padding-bottom: 2em;
 }
 .mils-tags span.tagged_as {
-  display: block;
-  padding: 5px 15px;
+  display: flex;
   width: max-content;
-  background-color: #ADADAD;
-  border-radius: .4em;
+  gap: 5px;
 }
 .mils-tags span.tagged_as a {
   color: #fff;
   font-weight: 600;
   font-size: 1.3em;
   letter-spacing: 1.2px;
+  background: #ADADAD;
+  padding: 5px 15px;
+  border-radius: .4em;
 }
 .mils-tags span.tagged_as a:hover {
   color: #fff;
