@@ -142,6 +142,17 @@ body {
 .mils-gallery {
 	height: 800px !important;
 }
+.mils-gallery .grid-col .banner {
+	bottom: 0;
+    height: calc(100% - 1em);
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: absolute !important;
+    top: 0;
+    width: calc(100% - 1em);
+    overflow: hidden;
+    padding: 10px !important;
+}
 .mils-subs-left-text {
 	text-align: left !important;
 }
@@ -378,6 +389,7 @@ body {
 		transform: translateX(0%);
 	}
 }
+
 
 
 
