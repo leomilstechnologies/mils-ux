@@ -2,6 +2,9 @@
 body {
 	font-family: 'Poppins', sans-serif !important;
 }
+.header-bg-color {
+	background-color: transparent !important;
+}
 .mils-wrapper {
 	box-sizing: border-box !important;
 	padding: 5vw 10vw !important;
