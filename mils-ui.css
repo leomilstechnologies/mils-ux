@@ -172,6 +172,10 @@ body {
 .mils-overview .slider .section-content.relative {
 	transform: translateX(-50%);
 }
+
+.image-cover img {
+	border-radius: 1.2em;
+}
 @media (min-width: 850px) and (max-width: 1024px) {
 	.mils-gallery {
 		height: 600px !important;
