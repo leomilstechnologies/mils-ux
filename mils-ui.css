@@ -395,6 +395,9 @@ body {
 	.mils-overview .slider .section-content.relative {
 		transform: translateX(0%);
 	}
+	.image-cover img {
+		border-radius: .4em;
+	}
 }
 
 
