@@ -657,6 +657,14 @@ accordion-title-wrapper .custom-svg-icon {
   background-color: transparent;
   color: var(--mils-accent);
 }
+.chat-header p {
+  margin-bottom: 0em;
+}
+.chat-header .close-btn {
+  min-height: 0em;
+  min-width: 0px;
+  margin-bottom: 0em;
+}
 
 @keyframes popIn {
   0% { transform: scale(0); opacity: 0; }
