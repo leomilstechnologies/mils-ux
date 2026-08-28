@@ -524,17 +524,22 @@ accordion-title-wrapper .custom-svg-icon {
 
 /* State ketika expand menjadi kotak */
 .floating-panel-contact.expanded .panel-inner {
-  width: 300px;
-  height: 200px;
+  width: 320px;
+  height: 220px; /* Anda bisa kurangi tingginya lagi jika header sudah tidak bocor */
   border-radius: 12px;
   padding: 20px;
-  cursor: default; /* Kembalikan kursor ke default saat terbuka */
+  cursor: default;
+  /* Tambahan untuk memastikan layout internal rapi */
+  box-sizing: border-box;
+  align-items: flex-start;
 }
 
 .floating-panel-contact.expanded .initial-state {
   opacity: 0;
   pointer-events: none;
 }
+
+
 
 .expanded-state {
   opacity: 0;
@@ -554,10 +559,12 @@ accordion-title-wrapper .custom-svg-icon {
 .chat-header {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Memisahkan header-left dan tombol close */
+  justify-content: space-between; 
   margin-bottom: 12px;
   padding-bottom: 12px;
   border-bottom: 1px solid var(--mono-border);
+  /* Tambahan untuk mengunci tinggi header */
+  flex: 0 0 auto; 
 }
 
 .header-left {
